@@ -1,0 +1,6 @@
+author: SandPoot
+delete-after: true
+changes:
+  - code_imp: Modifies 4 parts in the code that change screen that would always return
+      false thus ending on 15x15 screen even if you didn't want it, it now checks
+      for the user's prefs
